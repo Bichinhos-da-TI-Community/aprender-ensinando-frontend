@@ -6,6 +6,11 @@ body {
   width: 100vw;
   overflow: hidden;
   background: #D9EAFD;
+  transition: background 0.5s ease;
+}
+
+.dark-mode {
+  background: #333333 !important;
 }
 
 /* Styling for Custom Image */
@@ -27,6 +32,7 @@ body {
   left: 90%;
   padding: 8px;
   position: absolute;
+  transform: scale(0.5);
 }
 
 /* Styling for Triangles */
