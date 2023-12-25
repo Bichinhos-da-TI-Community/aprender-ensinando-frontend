@@ -1,0 +1,262 @@
+/* Resetting Defaults and Setting Body Styles */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background: #D9EAFD;
+  transition: background 0.5s ease;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*dark mode*/
+
+.dark-mode {
+  background: #333333 !important;
+}
+
+.dark-mode .container {
+  background-color: #3F3C3C;
+}
+
+.dark-mode .container button {
+  background-color: #33C6C6;
+  color: #333333;
+}
+
+.dark-mode .container label {
+  color: #F7F7F7;
+}
+
+.dark-mode .container a {
+  color: #F7F7F7;
+}
+
+.dark-mode .icons img {
+  border: 1px solid #F7F7F7; 
+}
+
+.dark-mode .checkbox a {
+  color: #33C6C6;
+}
+
+.dark-mode .info { 
+  background-color: #3F3C3C;
+}
+/* Styling for Custom Image */
+.custom-image {
+  z-index: 9999;
+  width: 108px;
+  height: 108px;
+  border-radius: 201.5px;
+  position: absolute;
+  top: 1%;
+}
+
+/* Styling for Custom Button */
+.custom-boton {
+  z-index: 9999;
+  width: 76px;
+  height: 40px;
+  top: 3%;
+  left: 90%;
+  padding: 8px;
+  position: absolute;
+  transform: scale(0.5);
+}
+
+/* Styling for Triangles */
+.triangle,
+.triangle:before,
+.triangle:after {
+  width: 700px;
+  height: 700px;
+}
+
+.triangle {
+  overflow: hidden;
+  position: absolute;
+  margin: 1em auto 0;
+  border-radius: 20%;
+  transform: translateX(120%) translateY(20%) rotate(70deg) skewY(30deg) scaleX(.866);
+}
+
+.triangle:before,
+.triangle:after {
+  position: absolute;
+  background-color: #33C6C6;
+  pointer-events: auto;
+  content: '';
+}
+
+.triangle:before {
+  border-radius: 20% 20% 20% 53%;
+  transform: scaleX(1.155) skewY(-30deg) rotate(-30deg) translateY(-42.3%)
+    skewX(30deg) scaleY(.866) translateX(-24%);
+}
+
+.triangle:after {
+  border-radius: 20% 20% 53% 20%;
+  transform: scaleX(1.155) skewY(-30deg) rotate(-30deg) translateY(-42.3%)
+    skewX(-30deg) scaleY(.866) translateX(24%);
+}
+
+/* Styling for Second Set of Triangles */
+.triangle2,
+.triangle2:before,
+.triangle2:after {
+  width: 600px;
+  height: 600px;
+}
+
+.triangle2 {
+  overflow: hidden;
+  position: absolute;
+  margin: 20em auto 0;
+  border-radius: 20%;
+  transform: translateX(30%) translateY(40%) rotate(70deg) skewY(30deg) scaleX(.866);
+}
+
+.triangle2:before,
+.triangle2:after {
+  position: absolute;
+  background-color: #33C6C6;
+  pointer-events: auto;
+  content: '';
+}
+
+.triangle2:before {
+  border-radius: 20% 20% 20% 53%;
+  transform: scaleX(1.155) skewY(-30deg) rotate(-30deg) translateY(-42.3%)
+    skewX(30deg) scaleY(.866) translateX(-24%);
+}
+
+.triangle2:after {
+  border-radius: 20% 20% 53% 20%;
+  transform: scaleX(1.155) skewY(-30deg) rotate(-30deg) translateY(-42.3%)
+    skewX(-30deg) scaleY(.866) translateX(24%);
+}
+
+/* Styling for Circle Element */
+.circle {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: -90px;
+  left: -100px;
+  background-color: #33C6C6;
+  border-radius: 50%;
+}
+
+.container {
+  background-color: #F7F7F7;
+  border-radius: 15px;
+  margin: 15px;
+  max-height:634px ;
+  height:100%;
+  max-width: 474px;
+  width: 100%;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.enter-link {
+  margin-top: 20px;
+  margin-left: 20px;
+  
+}
+
+.enter-link a {
+  text-decoration: none; 
+  color: #333; 
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.icons {
+  text-align: center;
+
+}
+
+.icons img {
+  margin: 0 8px; 
+  width: 30px; 
+  height: 30px; 
+  padding: 10px; 
+  border-radius: 8px; 
+  border: 1px solid #333; 
+  display: inline-block;
+  margin: 0 auto;
+}
+
+
+.ou {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+
+.form {
+  padding: 12px;
+}
+
+.form-content {
+  margin-bottom: 10px;
+  padding-bottom:20px;
+  position: relative;
+}
+
+.info {
+  display: block;
+  width: 90%;
+  height: 20px;
+  border-radius: 8px;
+  padding: 10px;
+  border: 1px solid #8C8C8C ;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 20px ;
+  
+}
+
+.input-checkbox{
+  display: flex;
+  width: 379px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.checkbox{
+  display: flex;
+  gap:21px;
+  color: #0C1115;
+  font-size: 12px;
+  font-weight: 600;
+  padding-left: 20px;
+}
+
+.checkbox a{
+  margin-left: -15px;
+  color: #33C6C6;
+  text-decoration: none;
+}
+
+.form button{
+  background-color: #343A40;
+  color:#F7F7F7;
+  width: 90%;
+  border-radius: 8px;
+  padding: 12px;
+  border: 0;
+  margin: 0 auto;
+  display: block;
+  cursor: pointer;
+  
+}
