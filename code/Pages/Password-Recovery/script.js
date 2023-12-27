@@ -27,6 +27,6 @@ function toggleDarkMode() {
 	console.log(formH1);
 	body.classList.toggle("dark-mode");
 	buttonImage.src = body.classList.contains("dark-mode")
-		? "/img/luzetrevas2.png"
-		: "/img/luzetrevas.png";
+		? "/img/dark-mode-button.png"
+		: "/img/light-mode-button.png";
 }
