@@ -3,5 +3,5 @@ function toggleDarkMode() {
     var botonImage = document.querySelector('.custom-boton img');
   
     body.classList.toggle("dark-mode");
-    botonImage.src = body.classList.contains('dark-mode') ? '/img/luzetrevas2.png' : '/img/luzetrevas.png';
+    botonImage.src = body.classList.contains('dark-mode') ? '../img/dark-mode-button.png' : '../img/light-mode-button.png';
   }
