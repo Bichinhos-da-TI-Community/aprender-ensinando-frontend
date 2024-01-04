@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title and Stylesheet link -->
+    <title>Crie uma senha nova</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <div class="triangle"></div>
+    <div class="triangle2"></div>
+    <div class="circle"></div>
+    <div class="nav">
+      <img src="../../../img/logo.png" alt="logo" class="logo" />
+
+      <div class="menu">
+        <a href="">Entre</a>
+        <a href="" class="register-button">Cadastre-se</a>
+        <img
+          src="../../../img/light-mode-button.png"
+          alt=""
+          onclick="toggleDarkMode()"
+        />
+      </div>
+    </div>
+    <div class="container">
+      <h1>Crie uma senha nova</h1>
+      <p>
+        Para proteger sua conta, escolha uma senha forte que você não usou antes
+        e que tenha pelo menos 8 caracteres.
+      </p>
+      <form id="form" class="form">
+        <input type="email" placeholder="Email" />
+        <input type="password" placeholder="Senha" />
+      </form>
+      <p>Todos os dispositivos deverão acessar sua conta com a nova senha</p>
+      <button id="submit" class="submit">Enviar</button>
+    </div>
+  </body>
+</html>
