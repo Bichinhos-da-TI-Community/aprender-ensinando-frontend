@@ -1,0 +1,68 @@
+/** Tipografia **/
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+/** Reset **/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+:root {
+  --color-primary: #33c6c6;
+  --color-secondary: #f3f3f3;
+  --color-sucess: #34a853;
+  --color-warning: #eac648;
+  --color-danger: #ff4d4d;
+  --color-bg-light: #d9eafd;
+  --color-bg-dark: #333333;
+  --color-black: #000000;
+  --color-white: #F7F7F7;
+  --color-neutral1: #3f3c3c;
+  --color-neutral2: #333333;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/** Header **/
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.56rem 1.06rem;
+}
+
+.themeSwitcher {
+  display: flex;
+  overflow: hidden; 
+  padding: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+  background-color: #CED4DA;
+  border-radius: 0.3125rem;
+}
+
+.themeSwitcher button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+  color: var(--color-black);
+  cursor: pointer;
+}
+
+.themeSwitcher button i{
+  font-size:  1.5rem;
+}
+
