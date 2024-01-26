@@ -19,6 +19,42 @@
             <button id="themeSwitcherDark"><i class="ph ph-moon"></i></button>
         </div>
     </header>
-   
+    <main>
+        <div class="formModal" id="formModal">
+          <form>
+            <div>
+              <a href="/login"><i class="ph ph-caret-left"></i>Entrar</a>
+            </div>
+            <div id="social">
+              <div>
+                <button id="google"><img src="../storage/icons/Google - png 0.svg"></button>
+                <button id="github"><img src="../storage/icons/githubblack 1.svg"></button>
+                <button id="linkedin"><img src="../storage/icons/LinkedinBlack 1.svg"></button>
+              </div>
+              <p>ou</p>
+            </div>
+            <section class="formContent">
+              <div>
+                <div class="formInputs">
+                  <input type="text" id="firstName" placeholder="Nome" name="firstName" required>
+                  <input type="text" id="lastName" placeholder="Sobrenome" name="lastName" required>
+                  <input type="text" id="username" placeholder="Nome de Usuário" name="username" required>
+                  <input type="email" id="email" placeholder="Email" name="email" required>
+                  <input type="password" id="password" placeholder="Senha" name="password" required>
+                  <input type="password" id="confirmPassword" placeholder="Confirmação de senha" name="confirmPassword" required>
+                </div>
+                <div class="formTerms">
+                  <input type="checkbox" id="agreeTerms" name="agreeTerms" required>
+                  <label for="agreeTerms">Eu concordo com os <strong>Termos</strong></label>
+                </div>
+              </div>
+              <button>REGISTRAR</button>
+            </section>
+          </form>
+        </div>
+        <div class="modal" id="confirmationModal">
+    
+        </div>
+    </main>
 </body>
 </html>

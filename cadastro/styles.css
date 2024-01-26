@@ -18,15 +18,14 @@
   --color-danger: #ff4d4d;
   --color-bg-light: #d9eafd;
   --color-bg-dark: #333333;
-  --color-black: #000000;
-  --color-white: #F7F7F7;
+  --color-black: #0C1115;
+  --color-white: #f7f7f7;
   --color-neutral1: #3f3c3c;
   --color-neutral2: #333333;
 }
 
-html {
-  height: 100%;
-  width: 100%;
+body {
+  height: 100vh;
 }
 
 a {
@@ -44,12 +43,12 @@ header {
 
 .themeSwitcher {
   display: flex;
-  overflow: hidden; 
+  overflow: hidden;
   padding: 0.5rem;
   justify-content: center;
   align-items: center;
   gap: 0.75rem;
-  background-color: #CED4DA;
+  background-color: #ced4da;
   border-radius: 0.3125rem;
 }
 
@@ -62,7 +61,152 @@ header {
   cursor: pointer;
 }
 
-.themeSwitcher button i{
-  font-size:  1.5rem;
+.themeSwitcher button i {
+  font-size: 1.5rem;
 }
 
+/** Main Form **/
+
+.formModal {
+  background-color: var(--color-white);
+  padding: 1.81rem 2.56rem;
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 1.5rem;
+  max-width: 29.625rem;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+form > div:first-child {
+  width: 100%;
+  align-items: flex-start;
+}
+
+form > div:first-child a {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  color: var(--color-black);
+}
+
+#social {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+#social div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+#social button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.625rem;
+  border-radius: 0.5rem;
+  border: 2px solid #8c8c8c;
+  cursor: pointer;
+}
+
+#social p{
+  color: #8c8c8c;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.formContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.formContent > div:first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 0.94rem;
+}
+
+.formTerms {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.formTerms input {
+  width: 1.125rem;
+}
+
+.formTerms label {
+  font-size: 1rem;
+  color: var(--color-black);
+}
+
+.formTerms label strong{
+  font-size: 1rem;
+  color: #0F6767;
+}
+
+input:focus {
+  color:var(--color-primary);
+  outline-color: #0F6767;
+  transition: .1s;
+}
+
+.formContent button {
+  width: 100%;
+  display: flex;
+  padding: 0.75rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: #343a40;
+  color: var(--color-white);
+}
+
+.formContent button:hover {
+  background-color: #2b3035;
+  cursor: pointer;
+}
+
+.formInputs {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.formInputs input {
+  width: 23.875rem;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  border: 2px solid #8c8c8c;
+}
+
+input::placeholder {
+  color: #8c8c8c;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
