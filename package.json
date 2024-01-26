@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.html",
   "license": "MIT",
+  "scripts": {
+    "dev": "npx http-server -c-1"
+  },
   "dependencies": {},
   "devDependencies": {
     "http-server": "^14.1.1"

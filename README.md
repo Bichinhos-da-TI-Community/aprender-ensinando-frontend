@@ -18,7 +18,7 @@ yarn install
 ```
 Agora rode o comando
 ```shell
-npx http-server
+yarn dev
 ```
 No terminal irá aparecer as urls para acessar o projeto
 ```http request
