@@ -160,6 +160,7 @@ form > div:first-child a {
 .formTerms label {
   font-size: 1rem;
   color: var(--color-black);
+  font-weight: 700;
 }
 
 .formTerms label strong{
