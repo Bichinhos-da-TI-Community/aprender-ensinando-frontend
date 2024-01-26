@@ -1,0 +1,10 @@
+{
+  "name": "aprender-ensinando-frontend",
+  "version": "1.0.0",
+  "main": "index.html",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
